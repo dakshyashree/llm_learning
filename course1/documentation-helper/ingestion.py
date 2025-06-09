@@ -81,4 +81,4 @@ def ingest_docs2()-> None:
 
 
 if __name__ == "__main__":
-    ingest_docs2()
+    ingest_docs()
