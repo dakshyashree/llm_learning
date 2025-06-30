@@ -28,11 +28,8 @@ actor_prompt_template = ChatPromptTemplate.from_messages(
             3. Recommend search queries to research information and improve your answer.""",
         ),
         MessagesPlaceholder(variable_name="messages"),
-
     ]
-).partial(
-    time=lambda: datetime.datetime.now().isoformat()
-)
+).partial(time=lambda: datetime.datetime.now().isoformat())
 
 first_responder_prompt_template = actor_prompt_template.partial(
     first_instruction="Provide a detailed ~250 word answer."
@@ -62,8 +59,10 @@ if __name__ == "__main__":
     )
 
     chain = (
-        first_responder_prompt_template | llm.bind_tools(tools=[AnswerQuestion],tool_choice="AnswerQuestion") | parser_pydantic
+        first_responder_prompt_template
+        | llm.bind_tools(tools=[AnswerQuestion], tool_choice="AnswerQuestion")
+        | parser_pydantic
     )
 
-    res = chain.invoke(input={"messages":[human_message]})
+    res = chain.invoke(input={"messages": [human_message]})
     print(res)
