@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ac547dc-abee-4bcd-ac16-43115658a543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/documentation-helper/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intro-to-vector-dbs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation-helper/backend/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro-to-vector-dbs/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/intro-to-vector-dbs/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langgraph-course/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/langgraph-course/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactLangchain/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/reactLangchain/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course2/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course2/week1/Text_summary" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csv-integration/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../csv-integration/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraph/reflection-agent/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraph/reflection-agent/chains.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraph/reflection-agent/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraph/reflexion-agent/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraph/reflexion-agent/chains.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraph/reflexion-agent/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../csv-integration/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../csv-integration/.idea/.name" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
